@@ -1,0 +1,227 @@
+body {
+  background: url(images/tile.png) 0 0;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  border-left: 2px solid #555;
+  border-right: 2px solid #555;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h2, h3 {margin-top: 0; text-shadow: 1px 1px 1px #fff;}
+h2 {font-size: 20px;}
+h3 {font-size: 16px;}
+
+label {font-weight: bold;}
+a {
+  color: #2d483a;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+a:hover {color: #000;}
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.topPadding {padding-top: 14px;}
+.noTopMargin {margin-top: 0;}
+
+.top {
+  float: right;
+  font-size: 10px;
+  color: #4b6658;
+}
+.top:hover {color: #333;}
+
+
+/*====== Header ======*/
+
+#header {
+  background: url(images/banner.png) 0 0 no-repeat;
+  height: 146px;
+}
+#header h1 {
+  text-indent: -999em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#header .left, #header .right {
+  list-style-type: none;
+  margin: 88px 0 0;
+  padding: 0;
+}
+#header .left {margin-left: 60px;}
+#header .right {margin-right: 60px;}
+#header .left li, #header .right li {display: inline;}
+#header .left li {margin-right: 40px;}
+#header .right li {margin-left: 40px;}
+#header a {color: #fff; text-decoration: underline; border-bottom: none; text-shadow: 1px 1px 1px #000;}
+#header a:hover {border-bottom: 2px solid #000;}
+
+#header a.racing {
+    display: block;
+    float: left;
+    margin-right: -240px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#header a.facebook {
+    line-height: 32px;
+    width: 32px;
+    display: block;
+    float: right;
+    margin-right: -240px;
+    margin-top: 15px;
+    text-indent: -999em;
+    background: url(images/facebook.png) no-repeat top left;
+}
+
+#header a.phone {
+  position: absolute;
+  top: 90px;
+  height: 20px;
+  width: 170px;
+  margin-left: 55px;
+  text-align: center;
+  text-indent: -999em;
+}
+
+#main, #services, #about, #contact {padding: 20px 40px;}
+
+
+/*====== Main ======*/
+
+#main {
+  background: #fff url(images/main_gradient.png) repeat-x bottom left;
+  min-height: 310px;
+  color: #333;
+}
+
+#main img {
+  float: right;
+  background: #fff;
+  padding: 2px;
+  border: 2px solid #4b6658;
+  margin-left: 40px;
+}
+
+#main .fb-like {margin-top: 20px;}
+
+
+/*====== Services ======*/
+
+#services {
+  background-color: #ddd;
+  color: #222;
+}
+
+#services ul {
+  float: left;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  padding-left: 60px;
+}
+
+
+/*====== About ======*/
+
+#about {
+  background-color: #ccc;
+  color: #111;
+}
+
+#about img {
+  padding: 2px;
+  border: 2px solid #4b6658;
+}
+
+/*====== Contact ======*/
+
+#contact {
+  background-color: #bbb;
+  color: #000;
+}
+
+#map-info {
+  float: left;
+  margin-right: 50px;
+}
+
+.map {
+  padding: 2px;
+  border: 2px solid #4b6658;
+}
+.map:hover {
+  border: 2px solid #ce0000;
+}
+
+#contact-info {
+  float: left;
+  width: 412px;
+}
+
+p.facebook {
+  background: url(images/facebook.png) no-repeat top left;
+  padding-left: 40px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+p.facebook a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#location {
+  text-indent: -10px;
+  padding: 10px;
+  margin-top: 0;
+}
+
+#hours {
+  text-indent: -10px;
+  padding: 0 10px;
+  margin-top: 0;
+  margin-right: -20px;
+}
+
+
+/*====== Footer ======*/
+
+#footer {
+  background-color: #eee;
+  color: #333;
+  font-size: 10px;
+  padding: 10px 40px;
+}
+
+#footer ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#footer #copy {
+  float: right;
+}
+
+#footer .fb-like {
+  margin-top: 20px;
+}
